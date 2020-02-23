@@ -4,7 +4,7 @@ import './flaticon.css';
 export const ResetCSS = createGlobalStyle`
   ::selection {
     background: #333333;
-    color: #ffffff;
+    color: #E5E5E5;
   }
 
   html {

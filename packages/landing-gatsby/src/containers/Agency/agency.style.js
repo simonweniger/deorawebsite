@@ -98,13 +98,13 @@ const GlobalStyle = createGlobalStyle`
         left: 0;
         padding-left: 71px;
         padding-bottom: 56px;
-        background-color: ${themeGet('colors.white', '#ffffff')};
+        background-color: ${themeGet('colors.white', '#E5E5E5')};
       }
     }
   }
   /* Modal default style */
   button.modalCloseBtn {
-    color: ${themeGet('colors.white', '#ffffff')} !important;
+    color: ${themeGet('colors.white', '#E5E5E5')} !important;
     &.alt {
       background-color: ${themeGet('colors.primary', '#10ac84')} !important;
       box-shadow: 0 8px 38px rgba(16, 172, 132, 0.5) !important;
@@ -186,7 +186,7 @@ const AgencyWrapper = styled.div`
     top: 0;
     transition: all 0.3s ease;
     .reusecore__button {
-      color: ${themeGet('colors.white', '#ffffff')};
+      color: ${themeGet('colors.white', '#E5E5E5')};
       font-size: 18px;
       @media only screen and (max-width: 480px) {
         color: ${themeGet('colors.primary', '#10ac84')};
@@ -195,7 +195,7 @@ const AgencyWrapper = styled.div`
     .hamburgMenu__bar {
       margin-left: 8px;
       > span {
-        background-color: ${themeGet('colors.white', '#ffffff')};
+        background-color: ${themeGet('colors.white', '#E5E5E5')};
         @media only screen and (max-width: 480px) {
           background-color: ${themeGet('colors.primary', '#10ac84')};
         }
@@ -204,7 +204,7 @@ const AgencyWrapper = styled.div`
   }
   .sticky-nav-active {
     .reusecore__navbar {
-      background-color: ${themeGet('colors.white', '#ffffff')};
+      background-color: ${themeGet('colors.white', '#E5E5E5')};
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
       padding: 15px auto;
       .reusecore__button {

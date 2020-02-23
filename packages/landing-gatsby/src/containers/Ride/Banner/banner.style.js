@@ -10,6 +10,7 @@ const BannerWrapper = styled.section`
   background-position: 105% center;
   background-size: 1020px;
   position: relative;
+  background-color: #E5E5E5;
   margin-top: -40px;
   @media (max-width: 1750px) {
     background-size: 900px;
@@ -47,7 +48,7 @@ const BannerWrapper = styled.section`
     margin-bottom: 0px;
     overflow: hidden;
     background-image: none;
-    background: #faf8ff;
+    background: #E5E5E5;
     padding-bottom: 100px;
   }
   @media (max-width: 480px) {

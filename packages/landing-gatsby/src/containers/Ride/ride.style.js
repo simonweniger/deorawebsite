@@ -132,7 +132,7 @@ export const ContentWrapper = styled.div`
   }
   .sticky-nav-active {
     .hosting_navbar {
-      background: #fff;
+      background: #E5E5E5;
       box-shadow: 0px 3px 8px 0px rgba(43, 83, 135, 0.08);
       padding: 15px 0;
       @media (min-width: 1440px) {

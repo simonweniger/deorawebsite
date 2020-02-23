@@ -1,7 +1,7 @@
 const colors = {
   transparent: 'transparent', // 0
   black: '#000000', // 1
-  white: '#ffffff', // 2
+  white: '#E5E5E5', // 2
   headingColor: '#0f2137',
   textColor: '#5d646d', // 3
   labelColor: '#767676', // 4
